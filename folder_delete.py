@@ -32,8 +32,8 @@ if __name__ == "__main__":
     repo_path = 'C:/Works/MyRepository/'
 
     # 替换为你要比较的两个提交的哈希值
-    commit1 = 'abc1234'
-    commit2 = 'def5678'
+    commit1 = '703441edefada314872fe6fb6a57d35a34921c24'
+    commit2 = '9020ddbd92a2062953c4a45ecea2187c298bbaf4'
 
     # 获取被删除的文件夹
     deleted_folders = get_deleted_folders(repo_path, commit1, commit2)
